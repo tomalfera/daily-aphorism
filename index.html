@@ -52,6 +52,9 @@ main { max-width:780px; margin:0 auto; padding:24px; }
 .btn-cancel { background:var(--bg3); color:var(--text2); border:none; }
 .btn-save { background:var(--accent); color:#fff; border:none; }
 .btn-delete { background:rgba(220,38,38,.2); color:#ef4444; border:none; }
+.export-section { margin-top:32px; padding-top:24px; border-top:1px solid var(--border); }
+.export-preview { background:var(--bg); border:1px solid var(--border); border-radius:var(--rs); padding:20px 24px; font-family:'SF Mono','Fira Code','Consolas',monospace; font-size:13px; line-height:1.7; white-space:pre-wrap; max-height:400px; overflow-y:auto; }
+.export-preview::selection { background:var(--accent); color:#fff; }
 .empty { text-align:center; padding:60px 20px; color:var(--text3); }
 .empty .icon { font-size:48px; margin-bottom:12px; }
 .empty h3 { font-size:18px; color:var(--text2); margin-bottom:8px; }
@@ -163,8 +166,15 @@ function renderGallery(){
 }
 
 function renderJournal(){
+  var collateBtn='';
+  if(journal.length>0){
+    collateBtn='<button class="journal-btn" id="collateBtn" style="margin-bottom:24px;">📋 Collate & Export</button>';
+  }
   document.getElementById('main').innerHTML=
-    '<h2 style="font-size:22px;font-weight:700;margin-bottom:24px;">📓 Your Reflections</h2><div>'+
+    '<h2 style="font-size:22px;font-weight:700;margin-bottom:24px;">📓 Your Reflections</h2>'+
+    '<p style="color:var(--text2);font-size:13px;margin-bottom:16px;">'+journal.length+' reflection'+(journal.length!==1?'s':'')+'</p>'+
+    collateBtn+
+    '<div>'+
     (journal.length===0?'<div class="empty"><div class="icon">📝</div><h3>No reflections yet</h3></div>':'')+
     journal.map((j,i)=>
       '<div class="journal-entry">'+
@@ -174,9 +184,27 @@ function renderJournal(){
         '<div style="margin-top:12px;text-align:right;"><button class="btn-delete" data-del="'+i+'" style="padding:4px 12px;border-radius:var(--rs);cursor:pointer;font:inherit;font-size:12px;">Delete</button></div>'+
       '</div>'
     ).join('')+
+    '</div>'+
+    '<div class="export-section" id="exportSection" style="display:none;">'+
+      '<h3 style="margin-bottom:8px;">📋 Collated Reflections</h3>'+
+      '<p style="color:var(--text2);font-size:13px;margin-bottom:16px;">Copy the text below and paste into your Google Doc. Submit via Schoology.</p>'+
+      '<div class="export-preview" id="exportPreview"></div>'+
+      '<button class="journal-btn" id="copyExportBtn" style="margin-top:12px;">📋 Copy to Clipboard</button>'+
+      '<span id="copyStatus" style="margin-left:12px;font-size:13px;color:#22c55e;display:none;">Copied!</span>'+
     '</div>';
   document.querySelectorAll('[data-del]').forEach(btn=>{
     btn.addEventListener('click',e=>{e.stopPropagation();journal.splice(parseInt(btn.dataset.del),1);saveJournal();renderJournal();});
+  });
+  var cb=document.getElementById('collateBtn');
+  if(cb)cb.addEventListener('click',collateExport);
+  var copyBtn=document.getElementById('copyExportBtn');
+  if(copyBtn)copyBtn.addEventListener('click',function(){
+    var p=document.getElementById('exportPreview');
+    if(!p)return;
+    navigator.clipboard.writeText(p.textContent).then(function(){
+      var s=document.getElementById('copyStatus');
+      if(s){s.style.display='inline';setTimeout(function(){s.style.display='none';},2000);}
+    });
   });
 }
 
@@ -207,6 +235,36 @@ function openReflect(q){
     overlay.remove();
     showToast('Reflection saved');
   });
+}
+
+function collateExport(){
+  if(!journal.length)return;
+  var lines=[
+    '═══════════════════════════════════════',
+    '  DAILY APHORISM — Reflection Journal',
+    '═══════════════════════════════════════',
+    '',
+    'Total reflections: '+journal.length,
+    ''
+  ];
+  journal.forEach(function(j,i){
+    var d=new Date(j.savedAt).toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+    lines.push('───────────────────────────────────────');
+    lines.push('  '+(i+1)+'. '+d);
+    lines.push('───────────────────────────────────────');
+    lines.push('');
+    lines.push('"'+j.quoteText+'"');
+    lines.push('— '+j.author);
+    lines.push('');
+    lines.push('My reflection:');
+    lines.push(j.response);
+    lines.push('');
+  });
+  lines.push('═══════════════════════════════════════');
+  var preview=document.getElementById('exportPreview');
+  var section=document.getElementById('exportSection');
+  if(preview)preview.textContent=lines.join('\n');
+  if(section){section.style.display='block';setTimeout(function(){section.scrollIntoView({behavior:'smooth'});},50);}
 }
 
 function saveJournal(){localStorage.setItem('aphorism:journal',JSON.stringify(journal));}
