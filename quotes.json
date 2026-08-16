@@ -1,10 +1,138 @@
 [
   {
     "day": 1,
-    "text": "The impediment to action advances action. What stands in the way becomes the way.",
-    "author": "Marcus Aurelius",
-    "source": "Meditations",
+    "text": "The future is no more uncertain than the present.",
+    "author": "Walt Whitman",
+    "source": "Leaves of Grass",
     "tradition": "",
-    "date": "2026-08-15"
+    "date": ""
+  },
+  {
+    "day": 2,
+    "text": "Life is long, if you know how to use it.",
+    "author": "Seneca",
+    "source": "On the Shortness of Life",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 3,
+    "text": "He who fears he shall suffer, already suffers what he fears.",
+    "author": "Michel de Montaigne",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 4,
+    "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "author": "Seneca",
+    "source": "On the Shortness of Life",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 5,
+    "text": "The only difference between the saint and the sinner is that every saint has a past, and every sinner has a future.",
+    "author": "Oscar Wilde",
+    "source": "A Woman of No Importance",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 6,
+    "text": "The greatest thing in the world is to know how to belong to oneself.",
+    "author": "Michel de Montaigne",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 7,
+    "text": "Our greatest glory is not in never failing, but in rising up every time we fail.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 8,
+    "text": "The butterfly counts not months but moments, and has time enough.",
+    "author": "Rabindranath Tagore",
+    "source": "Stray Birds",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 9,
+    "text": "The god of dirt came up to me many times and said so many wise and delectable things.",
+    "author": "Mary Oliver",
+    "source": "Dream Work",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 10,
+    "text": "Study the past if you would define the future.",
+    "author": "Confucius",
+    "source": "Analects",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 11,
+    "text": "The wound is the place where the Light enters you.",
+    "author": "Rumi",
+    "source": "Poems",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 12,
+    "text": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+    "author": "Seneca",
+    "source": "Letters from a Stoic",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 13,
+    "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 14,
+    "text": "It is a rough road that leads to the heights of greatness.",
+    "author": "Seneca",
+    "source": "Letters from a Stoic",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 15,
+    "text": "The most certain sign of wisdom is cheerfulness.",
+    "author": "Michel de Montaigne",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 16,
+    "text": "Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the whole world belongs to you.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 17,
+    "text": "Beauty is not in the face; beauty is a light in the heart.",
+    "author": "Kahlil Gibran",
+    "source": "The Prophet",
+    "tradition": "",
+    "date": ""
   }
 ]
