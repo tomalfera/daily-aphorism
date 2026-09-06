@@ -121,9 +121,7 @@ function render(){
 
 function renderDaily(){
   const today=new Date().toDateString();
-  const doy=Math.floor((new Date()-new Date(new Date().getFullYear(),0,0))/86400000);
-  const idx=(doy-1)%quotes.length;
-  const q=quotes[idx]||quotes[0];
+  const q=quotes[quotes.length-1]||quotes[0];
   if(!q){document.getElementById('main').innerHTML='<div class="empty"><div class="icon">📜</div><h3>No quotes yet</h3></div>';return;}
   document.getElementById('main').innerHTML=
     '<div class="daily-card">'+
