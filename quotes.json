@@ -1,106 +1,218 @@
 [
   {
     "day": 1,
-    "text": "The impediment to action advances action. What stands in the way becomes the way.",
-    "author": "Marcus Aurelius",
-    "source": "Meditations",
-    "tradition": "Stoicism",
-    "date": "2026-08-05"
+    "text": "The future is no more uncertain than the present.",
+    "author": "Walt Whitman",
+    "source": "Leaves of Grass",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 2,
-    "text": "Tell me, what is it you plan to do with your one wild and precious life?",
-    "author": "Mary Oliver",
-    "source": "New and Selected Poems",
-    "tradition": "Nature",
-    "date": "2026-08-04"
+    "text": "Life is long, if you know how to use it.",
+    "author": "Seneca",
+    "source": "On the Shortness of Life",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 3,
-    "text": "I celebrate myself, and sing myself, and what I assume you shall assume, for every atom belonging to me as good belongs to you.",
-    "author": "Walt Whitman",
-    "source": "Song of Myself",
-    "tradition": "Transcendentalism",
-    "date": "2026-08-03"
+    "text": "He who fears he shall suffer, already suffers what he fears.",
+    "author": "Michel de Montaigne",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 4,
-    "text": "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
-    "author": "Albert Camus",
-    "source": "The Rebel",
-    "tradition": "Existentialism",
-    "date": "2026-08-02"
+    "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "author": "Seneca",
+    "source": "On the Shortness of Life",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 5,
-    "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life.",
-    "author": "Henry David Thoreau",
-    "source": "Walden",
-    "tradition": "Transcendentalism",
-    "date": "2026-08-01"
+    "text": "The only difference between the saint and the sinner is that every saint has a past, and every sinner has a future.",
+    "author": "Oscar Wilde",
+    "source": "A Woman of No Importance",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 6,
-    "text": "We do not receive wisdom, we must discover it for ourselves, after a journey through the wilderness which no one else can make for us.",
-    "author": "Marcel Proust",
-    "source": "In Search of Lost Time",
-    "tradition": "Literature",
-    "date": "2026-07-31"
+    "text": "The greatest thing in the world is to know how to belong to oneself.",
+    "author": "Michel de Montaigne",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 7,
-    "text": "The wound is the place where the Light enters you.",
-    "author": "Rumi",
-    "source": "The Essential Rumi",
-    "tradition": "Sufism",
-    "date": "2026-07-30"
+    "text": "Our greatest glory is not in never failing, but in rising up every time we fail.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 8,
-    "text": "Hope is not the conviction that something will turn out well, but the certainty that something makes sense regardless of how it turns out.",
-    "author": "V\u00e1clav Havel",
-    "source": "Disturbing the Peace",
-    "tradition": "Political Philosophy",
-    "date": "2026-07-29"
+    "text": "The butterfly counts not months but moments, and has time enough.",
+    "author": "Rabindranath Tagore",
+    "source": "Stray Birds",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 9,
-    "text": "It does not matter how slowly you go as long as you do not stop.",
-    "author": "Confucius",
-    "source": "Analects",
-    "tradition": "Confucianism",
-    "date": "2026-07-28"
+    "text": "The god of dirt came up to me many times and said so many wise and delectable things.",
+    "author": "Mary Oliver",
+    "source": "Dream Work",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 10,
-    "text": "Attention is the rarest and purest form of generosity.",
-    "author": "Simone Weil",
-    "source": "Gravity and Grace",
-    "tradition": "Philosophy",
-    "date": "2026-07-27"
+    "text": "Study the past if you would define the future.",
+    "author": "Confucius",
+    "source": "Analects",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 11,
-    "text": "You must be the change you wish to see in the world.",
-    "author": "Mahatma Gandhi",
-    "source": "Collected Works",
-    "tradition": "Nonviolence",
-    "date": "2026-07-26"
+    "text": "The wound is the place where the Light enters you.",
+    "author": "Rumi",
+    "source": "Poems",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 12,
-    "text": "Solvitur ambulando \u2014 it is solved by walking.",
-    "author": "Diogenes (attr.)",
-    "source": "Lives of the Eminent Philosophers",
-    "tradition": "Cynicism",
-    "date": "2026-07-25"
+    "text": "True happiness is to enjoy the present, without anxious dependence upon the future.",
+    "author": "Seneca",
+    "source": "Letters from a Stoic",
+    "tradition": "",
+    "date": ""
   },
   {
     "day": 13,
-    "text": "I have looked down the saddest city lane. I have passed by the watchman on his beat and dropped my eyes, unwilling to explain.",
+    "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 14,
+    "text": "It is a rough road that leads to the heights of greatness.",
+    "author": "Seneca",
+    "source": "Letters from a Stoic",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 15,
+    "text": "The most certain sign of wisdom is cheerfulness.",
+    "author": "Michel de Montaigne",
+    "source": "Essays",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 16,
+    "text": "Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the whole world belongs to you.",
+    "author": "Lao Tzu",
+    "source": "Tao Te Ching",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 17,
+    "text": "Beauty is not in the face; beauty is a light in the heart.",
+    "author": "Kahlil Gibran",
+    "source": "The Prophet",
+    "tradition": "",
+    "date": ""
+  },
+  {
+    "day": 18,
+    "text": "Silence is the true friend that never betrays.",
+    "author": "Confucius",
+    "source": "Analects",
+    "tradition": "",
+    "date": "2026-08-16"
+  },
+  {
+    "day": 19,
+    "text": "The only true voyage would be not to visit strange lands but to possess other eyes.",
+    "author": "Marcel Proust",
+    "source": "In Search of Lost Time",
+    "tradition": "",
+    "date": "2026-08-16"
+  },
+  {
+    "day": 20,
+    "text": "Wheresoever you go, go with all your heart.",
+    "author": "Confucius",
+    "source": "Analects",
+    "tradition": "",
+    "date": "2026-08-17"
+  },
+  {
+    "day": 21,
+    "text": "The higher we soar the smaller we appear to those who cannot fly.",
+    "author": "Friedrich Nietzsche",
+    "source": "Thus Spoke Zarathustra",
+    "tradition": "",
+    "date": "2026-08-18"
+  },
+  {
+    "day": 22,
+    "text": "To live is so startling it leaves little time for anything else.",
+    "author": "Emily Dickinson",
+    "source": "Letters",
+    "tradition": "",
+    "date": "2026-08-19"
+  },
+  {
+    "day": 23,
+    "text": "Find ecstasy in life; the mere sense of living is joy enough.",
+    "author": "Emily Dickinson",
+    "source": "Poems",
+    "tradition": "",
+    "date": "2026-08-20"
+  },
+  {
+    "day": 24,
+    "text": "While we wait for life, life passes.",
+    "author": "Seneca",
+    "source": "Letters from a Stoic",
+    "tradition": "",
+    "date": "2026-08-21"
+  },
+  {
+    "day": 25,
+    "text": "I am not a teacher, but an awakener.",
     "author": "Robert Frost",
-    "source": "Acquainted with the Night",
-    "tradition": "American Poetry",
-    "date": "2026-07-24"
+    "source": "Aphorisms",
+    "tradition": "",
+    "date": "2026-08-22"
+  },
+  {
+    "day": 26,
+    "text": "Waste no more time arguing what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations",
+    "tradition": "",
+    "date": "2026-08-23"
+  },
+  {
+    "day": 27,
+    "text": "Life is a journey, not a destination.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Essays",
+    "tradition": "",
+    "date": "2026-08-24"
   }
 ]
