@@ -246,5 +246,21 @@
     "source": "Letters",
     "tradition": "Nature Poetry",
     "date": "2026-09-07"
+  },
+  {
+    "day": 32,
+    "text": "Listen — are you breathing just a little, and calling it a life?",
+    "author": "Mary Oliver",
+    "source": "Have You Ever Tried to Enter the Long Black Branches",
+    "tradition": "Nature Poetry",
+    "date": "2026-09-08"
+  },
+  {
+    "day": 33,
+    "text": "First say to yourself what you would be; and then do what you have to do.",
+    "author": "Epictetus",
+    "source": "Discourses",
+    "tradition": "Stoicism",
+    "date": "2026-09-09"
   }
 ]
