@@ -390,5 +390,13 @@
     "source": "Analects",
     "tradition": "Confucianism",
     "date": "2026-09-25"
+  },
+  {
+    "day": 50,
+    "text": "The mind, once stretched by a new idea, never returns to its original dimensions.",
+    "author": "Ralph Waldo Emerson",
+    "source": "Essays",
+    "tradition": "Transcendentalism",
+    "date": "2026-09-26"
   }
 ]
