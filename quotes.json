@@ -430,5 +430,13 @@
     "source": "The Gardener",
     "tradition": "Spirituality",
     "date": "2026-09-30"
+  },
+  {
+    "day": 55,
+    "text": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
+    "author": "Marcus Aurelius",
+    "source": "Meditations",
+    "tradition": "Stoicism",
+    "date": "2026-10-01"
   }
 ]
